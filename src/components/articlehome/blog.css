@@ -1,0 +1,86 @@
+.panintion{
+  padding: 70px 0;
+}
+.panintion.en{
+  direction: rtl;
+}
+.panintion a{
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+}
+.back.en{
+  transform: rotate(180deg);
+}
+.panintion h5{
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.panintion .servicediv{
+  margin: 10px 0;
+}
+.panintion .servicediv img{
+  border-radius: 15px;
+}
+.panintion .servicediv .pra{
+  display: flex;
+  gap: 31px;
+  margin: 10px 5px;
+}
+.panintion .servicediv .pra p{
+  margin: 0;
+  font-size: 15px;
+}
+.panintion .servicediv .pra .p1{
+  color: #1172ba;
+}
+.panintion .servicediv h4{
+  font-size: 19px;
+}
+.panintion .servicediv p{
+  font-size: 14px;
+}
+.panintion .servicediv a{
+  display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.panintion .servicediv .service a{
+  text-decoration: none;
+}
+.panintion .servicediv .service a.en {
+  text-decoration: none;
+  display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.panintion .servicediv .service .icon{
+  margin: 5px 5px 0 ;
+  font-size: 12px;
+}
+/* .pagination-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+ .pagination-buttons button{
+  padding: 5px 14px;
+  font-size: 19px;
+  color: #1172ba;
+  border: 2px solid #1172ba;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: white;
+  margin: 5px;
+}
+.pagination-buttons button:hover{
+  background: #1172ba;
+  color: white;
+}
+.pagination-buttons button.active{
+  background: #1172ba;
+  color: white;
+} */

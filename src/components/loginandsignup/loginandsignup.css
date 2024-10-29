@@ -1,0 +1,189 @@
+.login {
+  padding: 70px 0;
+
+}
+.login.en{
+  direction: rtl;
+}
+.login .imges img {
+  width: 100%;
+}
+.login .img {
+  text-align: center;
+}
+.login .img img {
+  width: 70px;
+}
+.login h5 {
+  text-align: center;
+  margin: 20px 20px 10px;
+  font-size: 37px;
+}
+.login p {
+  text-align: center;
+}
+.login .links {
+  display: flex;
+  justify-content: start;
+}
+.login .links .links-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+  width: 100%;
+  background-color: #f5f6f9;
+  padding: 3px 5px;
+}
+.login .links .links-div a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  background: white;
+  padding: 2px 35px;
+  margin: 0 2px;
+}
+.login .links .links-div a.hed {
+  background-color: #f5f6f9;
+  transition: 0.4s;
+}
+.login .links .links-div a.hed:hover {
+  background-color: white;
+}
+.login .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login .form form {
+  width: 60%;
+}
+.login .form form .email,
+.login .form form .password,
+.login .form form .date,
+.login .form form .name input {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 1px solid #00000059;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 7px;
+}
+.login .form form .chec {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.login .form form .chec input {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.login .form form .chec a {
+  text-decoration: none;
+}
+.login .form form button {
+  width: 100%;
+  background: #1172ba;
+  border: 2px solid #1172ba;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+  transition: 0.4s;
+}
+.login .form form button:hover {
+  background-color: transparent;
+  color: var(--primary);
+}
+.login .form form .or {
+  font-size: 10px;
+}
+.login .icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.login .icons .icon {
+  padding: 17px 30px;
+  transition: 0.4s;
+  border: 2px solid #a5a5a5;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.login .icons .icon:hover {
+  background-color: var(--primary);
+}
+@media (max-width: 995px) {
+  .login .form form {
+    width: 90%;
+  }
+  .login .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 5px;
+  }
+}
+@media (max-width: 420px) {
+  .login .icons .icon {
+    padding: 10px 20px;
+    border: 2px solid #a5a5a5;
+    border-radius: 9px;
+  }
+}
+.login .form form .name {
+  display: flex;
+  gap: 15px;
+}
+.namediv {
+  width: 50%;
+}
+.login .form form select {
+  width: 30%;
+  outline: none;
+  border: 1px solid #00000059;
+  padding: 7px;
+  margin: 5px 0;
+  border-radius: 7px 0 0 7px;
+  
+}
+
+.login .form form  .phone.en{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.login .form form .PhoneNumber {
+  width: 70%;
+  outline: none;
+  border: 1px solid #00000059;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 0 7px 7px 0;
+}
+@media (max-width: 380px) {
+  .login .form form select {
+    width: 30%;
+  }
+  .login .form form .PhoneNumber {
+    width: 70%;
+  }
+  .login .links .links-div a {
+    padding: 2px 25px;
+  }
+}
+.hed {
+  background-color: transparent;
+}
+.error {
+  background: #f5b1b1;
+  color: red;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+}

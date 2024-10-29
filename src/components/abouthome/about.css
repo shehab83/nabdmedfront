@@ -1,0 +1,90 @@
+.about {
+  padding: 70px 0 50px;
+}
+.about.en {
+  direction: rtl;
+}
+.about .contant.en {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.about .img {
+  border-radius: 10px;
+  background-image: url(../../../public/imges/about.png);
+  background-position: 0 -63px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 325px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.about .contant.en {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.about .contant .first-div {
+  width: fit-content;
+  display: flex;
+  background: #e2edff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  color: var(--primary);
+  direction: ltr;
+  display: flex;
+  align-items: center;
+}
+.about .contant .first-div.en {
+  direction: rtl;
+}
+.about .contant .first-div p {
+  margin: 0 0 0 5px;
+  font-size: 15px;
+}
+.about .contant .first-div p.en {
+  text-align: start;
+  margin-right: 10px;
+}
+.about .contant h6 {
+  font-size: 23px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  max-width: 440px;
+}
+.about .contant .num {
+  display: flex;
+  gap: 48px;
+  margin-left: 10px;
+}
+.about .contant .num1 {
+  text-align: center;
+}
+.about .contant .num1 h5 {
+  font-size: 45px;
+  color: var(--primary);
+}
+/* .about .contant .num1 p {
+}
+.about .contant .num2 {
+} */
+.about .contant .num2 h5 {
+  font-size: 45px;
+  color: var(--primary);
+}
+
+@media (max-width: 500px) {
+  .about .contant .first-div {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .about .contant .first-div .icon{
+    margin-bottom: 10px;
+  }
+}

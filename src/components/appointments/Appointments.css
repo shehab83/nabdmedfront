@@ -1,0 +1,89 @@
+.appointments{
+  padding: 70px 0 ;
+  min-height: 100vh;
+}
+.appointments.en {
+  direction: rtl;
+}
+.appointments .back {
+  font-size: 12px;
+  margin-right: 2px;
+}
+.appointments .back.en{
+  transform: rotate(180deg);
+}
+.appointments a {
+  text-decoration: none;
+}
+.appointments h5 {
+  margin: 20px 0;
+  font-size: 25px;
+}
+/* .appointments p {
+  margin: 0;
+  font-size: 12px;
+} */
+.appointments p .span1 {
+  font-size: 18px;
+  margin: 0px 5px;
+  color: #1172ba;
+}
+.appointments p .span2 {
+font-size: 17px;
+margin: 0px 5px;
+}
+.appointments  table{
+  width: 100%;
+  /* text-align: center; */
+}
+.appointments  table thead{
+  width: 100%;
+}
+.appointments  table thead th,
+.appointments  table thead td{
+  padding: 8px;
+  border: 1px solid #1172ba;
+}
+.appointments .accordion-body{
+  padding: 10px;
+}
+@media (max-width: 655px) {
+  .appointments  table thead th,
+  .appointments  table thead td{
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 470px) {
+  .appointments  table thead th,
+  .appointments  table thead td{
+    padding: 5px;
+    font-size: 12px;
+  }
+  .appointments p .span2 {
+    font-size: 15px;
+    }
+}
+@media (max-width: 400px) {
+  .appointments  table thead th,
+  .appointments  table thead td{
+    padding: 5px;
+    font-size: 10px;
+  }
+  /* .appointments h2 .ref{
+    font-size: 12px;
+    margin: 0 5px;
+  } */
+   .appointments p .span1 {
+    font-size: 15px;
+    }
+  .appointments p .span2 {
+    font-size: 11px;
+    }
+  .appointments .accordion-body{
+    padding: 0px;
+  }
+  .appointments  table thead th{
+    font-weight: 600;
+  }
+}

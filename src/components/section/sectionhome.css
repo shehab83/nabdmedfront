@@ -1,0 +1,75 @@
+.sectionhome {
+  margin: 50px 0 0;
+  height: 60vh;
+  background-image: url(../../../public/imges/section.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+}
+.sectionhome::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60vh;
+  background-color: #00000059;
+}
+.sectionhome * {
+  z-index: 10;
+}
+.sectionhome h4 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 40px;
+}
+.sectionhome .links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sectionhome .links .link1 {
+  background-color: var(--primary);
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: block;
+  border: 2px solid var(--primary);
+  transition: 0.3s;
+}
+.sectionhome .links .link1:hover {
+  background-color: transparent;
+  color: white;
+}
+.sectionhome .links .link2{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: 0.4s; 
+}
+.sectionhome .links .link2:hover{
+  background-color: white;
+  color: var(--primary);
+}
+@media (max-width: 500px) {
+  .sectionhome h4{
+    font-size: 32px;
+  }
+}
+@media (max-width: 360px) {
+  .sectionhome .links .link1{
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,96 @@
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgb(255, 255, 255) !important;
+}
+.nav-bar {
+  background-color: white;
+  box-shadow: 0px 0px 8px;
+}
+.nav-bar.en{
+  direction: rtl;
+}
+nav {
+  padding: 1px;
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar-nav {
+  gap: 20px;
+}
+nav .navbar-brand img {
+  width: 99px;
+  height: 55.02px;
+  gap: 0px;
+  opacity: 0px;
+}
+nav .nav-link {
+  color: hsl(0, 0%, 50%) !important;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  transition: 0.3s;
+}
+nav .nav-link.en{
+  text-align: start;
+}
+nav .nav-link.active {
+  color: var(--primary) !important;
+}
+nav .nav-link:hover {
+  color: var(--primary) !important;
+  /* background-color: rgb(0, 0, 0); */
+}
+nav .register .user {
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: var(--primary);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32.4px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  border: 2px solid var(--primary);
+  transition: 0.3s;
+}
+nav .register .user:hover {
+  background-color: transparent;
+  color: var(--primary);
+}
+nav .incos a:hover,
+nav .incos a.active,
+.nav-link:focus {
+  color: var(--primary);
+}
+nav .navbar-toggler {
+  width: fit-content;
+  font-size: 35px;
+  color: var(--main);
+  font-size: 25px;
+  padding: 2px 5px;
+}
+nav .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+  border: 2px solid var(--main);
+}
+.incos {
+  display: contents;
+}
+.but-lang{
+  margin: 0 10px;
+  padding:5px 10px 5px;;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  background: var(--primary);
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.but-lang:hover{
+  background-color: transparent;
+  color: var(--primary);
+}

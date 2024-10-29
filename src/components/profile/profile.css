@@ -1,0 +1,305 @@
+.profile {
+  padding: 50px 0;
+}
+.profile.en {
+  direction: rtl;
+}
+.profile .back {
+  text-decoration: none;
+  font-size: 20px;
+}
+.profile .icon {
+  font-size: 15px;
+}
+.profile .iconar {
+  font-size: 15px;
+  transform: rotateY(180deg);
+}
+.profile h3 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.profile .backcround-app {
+  background-color: var(--primary);
+  background-image: url(../../../public/imges/backcround.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+.profile .img {
+  position: relative;
+}
+.profile .img img {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+  margin: -71px 0 50px 0px;
+}
+.profile .img .iconen {
+  position: absolute;
+  top: 37px;
+  right: 107px;
+  background: #d4eef9;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 6px solid whit;
+  cursor: pointer;
+}
+.profile .img .iconar {
+  position: absolute;
+  top: 37px;
+  left: 107px;
+  background: #d4eef9;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 6px solid whit;
+  cursor: pointer;
+}
+.profile .sidebar ul {
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #e1e1e177;
+  padding-right: 10px;
+}
+.profile .sidebar ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.profile .sidebar ul li .link {
+  text-decoration: none;
+}
+.profile .sidebar ul li .link span {
+  font-size: 14px;
+}
+.profile .sidebar ul li .link.active img {
+  border: 1px solid #1172ba;
+}
+.profile .sidebar ul .li1 {
+  border-bottom: 2px solid #e3e3e377;
+  padding-bottom: 6px;
+}
+.profile .sidebar ul li .Link1 img {
+  padding: 8px;
+  background: #d4eef9;
+  border-radius: 50%;
+  margin: 0 10px;
+  width: 35px;
+}
+.profile .sidebar ul .file {
+  background: #1172ba;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.profile .sidebar ul .file a {
+  color: white;
+}
+.profile .sidebar ul .file a img {
+  margin-right: 10px;
+}
+.profile .sidebar ul li .link2 img {
+  width: 25px;
+  margin: 0 8px;
+}
+.profile .sidebar ul li .link2 {
+  color: black;
+}
+.profile .sidebar ul li .logout img {
+  width: 25px;
+  margin: 0 8px;
+}
+.profile .sidebar ul li .logout {
+  text-decoration: none;
+  color: red;
+}
+/* span{
+  display: none;
+} */
+.profile .profile1 form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.profile .profile1 form div {
+  width: 48%;
+}
+.profile1 form input,
+.profile .profile1 form select {
+  width: 100%;
+  display: block;
+  outline: none;
+  border: 1px solid #7777;
+}
+@media (max-width: 850px) {
+  .profile .sidebar span {
+    display: none;
+  }
+  .profile .sidebar ul .file a img {
+    margin-right: 0px;
+  }
+  .profile .sidebar ul li,
+  .profile .sidebar ul .file {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 770px) {
+  .profile .profile1 form div {
+    width: 100%;
+  }
+}
+.editimg form {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 330px;
+}
+.editimg p {
+  text-align: end;
+}
+.editimg button {
+  width: 100%;
+  background: #1172ba;
+  border: 2px solid #1172ba;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  margin: 10px 0;
+  transition: 0.4s;
+}
+.editimg button:hover {
+  background-color: transparent;
+  color: var(--primary);
+}
+.profile1 .add {
+  text-align: end;
+  margin-bottom: 30px;
+}
+.profile1 .add button {
+  border: 2px solid #1172ba;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background: #1172ba;
+  color: white;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.profile1 .add button:hover {
+  background-color: transparent;
+  color: #1172ba;
+}
+.profile .profile-info {
+  padding: 10px;
+  border: 2px solid #7777;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.profile1 .info {
+  display: flex;
+}
+.profile1 .info img {
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.profile1 .info h5 {
+  margin: 0 5px;
+}
+.profile1 .eide {
+  width: 100%;
+  outline: none;
+  border: 2px solid #1172ba;
+  background: #1172ba;
+  color: white;
+  border-radius: 8px;
+  padding: 4px;
+  transition: 0.4s;
+}
+.profile1 .eide:hover {
+  background-color:#a11313 ;
+  border: 2px solid #a11313;
+  color: white ;
+}
+.profile .info .info-info {
+  display: flex;
+}
+@media (max-width: 370px) {
+  .profile1 .info h5 {
+    font-size: 17px;
+  }
+}
+.profileadd form label {
+  margin-bottom: 5px;
+}
+.profileadd form input,
+.profileadd form select {
+  width: 100%;
+  display: block;
+  outline: none;
+  border: 1px solid #7777;
+  padding: 10px;
+  border-radius: 5px;
+}
+.profileadd form button {
+  margin: 20px 0;
+  padding: 5px 25px;
+  border: 2px solid #1172ba;
+  background: #1172ba;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+  transition: 0.4s;
+}
+.profileadd form button:hover {
+  background-color: transparent;
+  color: #1172ba;
+}
+.userShow form {
+  width: 100%;
+  padding: 10px;
+}
+.userShow label {
+  margin: 5px 0;
+  font-size: 20px;
+}
+.userShow input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #7777;
+}
+.userShow button {
+  margin: 21px 0 0 0;
+  width: 100%;
+  padding: 7px;
+  border: 2px solid #1172ba;
+  border-radius: 6px;
+  color: white;
+  background: #1172ba;
+  transition: 0.4s;
+}
+.userShow button:hover{
+  background-color: transparent;
+  color: #1172ba;
+}
+.linkeide{
+  background: #1172ba;
+  padding: 10px 26px;
+  color: white;
+  border: 2px solid #1172ba;
+  border-radius: 10px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.linkeide:hover{
+  background-color: transparent;
+  color: #1172ba;
+}

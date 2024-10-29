@@ -1,0 +1,87 @@
+.blogone {
+  padding: 70px 0;
+}
+.blogone.en {
+  direction: rtl;
+}
+.blogone img {
+  border-radius: 10px;
+  position: relative;
+}
+.blogone .play {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  color: red;
+  display: block;
+  width: 20%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.backblog{
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.blogone .play a,
+.blogone .play-img a {
+  font-size: 40px;
+  border: 5px solid #1172ba;
+  display: inline-block;
+  padding: 20px 37px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+.blogone .play a:hover,
+.blogone .play-img a:hover {
+  background: #1172ba;
+  color: white;
+}
+.blogone .play-img {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  color: red;
+  display: block;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.blogone .slick-arrow.slick-next {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  z-index: 200;
+}
+.blogone .slick-next::before {
+  content: "→" !important;
+  color: white !important;
+  opacity: 1 !important;
+  font-size: 30px !important;
+}
+.blogone .slick-arrow.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  z-index: 200;
+}
+.blogone .slick-prev::before {
+  content: "←" !important;
+  color: white !important;
+  opacity: 1 !important;
+  font-size: 30px !important;
+}
+.blogone .slider-container {
+  margin-bottom: 50px;
+}
+.blogone .cont h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #1172ba;
+  font-weight: 600;
+}
+.blogone .cont h4 {
+  margin-bottom: 20px;
+  max-width: 400px;
+}

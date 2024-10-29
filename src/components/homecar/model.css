@@ -1,0 +1,550 @@
+.model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+  background: #0000002e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.model .modelAbout {
+  overflow-y: auto;
+  height: 530px;
+  background-color: white;
+  /* max-width: 700px; */
+  width: 750px;
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+}
+.model .modelAbout.en {
+  direction: rtl;
+}
+.div2 p {
+  text-align: end;
+}
+
+.model .modelAbout .div1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.model .modelAbout .div1 .div-about {
+  display: flex;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.model .modelAbout .div1 .div-about .img {
+  width: 150px;
+  height: 100px;
+  margin: 0 10px 10px;
+}
+.model .modelAbout .div1 .div-about .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.model .modelAbout .div1 .div-about h5 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  max-width: 200px;
+}
+.model .modelAbout .div1 .div-about span {
+  display: block;
+  width: 90%;
+  height: 1px;
+  background: #7777;
+  margin-bottom: 10px;
+}
+.model .modelAbout .div1 .div-about .review {
+  display: flex;
+  align-items: center;
+}
+.model .modelAbout .div1 .div-about .review .review1 {
+  margin: 0;
+  font-size: 11px;
+  background: #d4eef9;
+  padding: 4px 7px;
+  border-radius: 5px;
+  color: #1172ba;
+  margin: 7px;
+}
+.model .modelAbout .div1 .div-about .review .review1 .icon {
+  font-size: 10px;
+}
+.model .modelAbout .div1 .div-about .review .review2 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+.model .modelAbout .div2 h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1172ba;
+  text-align: end;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.model .modelAbout .div2 a {
+  text-decoration: none;
+  background: #1172ba;
+  padding: 10px 50px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #1172ba;
+  display: block;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+.model .modelAbout .div2 a:hover {
+  background-color: white;
+  color: #1172ba;
+}
+.model .modelAbout .div3 h6 {
+  font-size: 20px;
+}
+.model .modelAbout .div3 p {
+  font-size: 13px;
+  color: #777;
+}
+.model .modelAbout .div4 {
+  padding: 10px;
+  border: 1px dashed #1172ba;
+  display: flex;
+  border-radius: 10px;
+  gap: 10px;
+}
+.model .modelAbout .div4 h6 {
+  margin: 3px 0 8px;
+  font-size: 18px;
+}
+.model .modelAbout .div4 p {
+  font-size: 12px;
+  color: #777;
+}
+.model .modelAbout .div2 .icon-delete.ar {
+  /* text-align: end; */
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.model .modelAbout .div2 .icon-delete.en {
+  /* text-align: end; */
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.icon-delete {
+  text-align: end;
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+.icon-delete:hover {
+  color: red;
+}
+.model .days {
+  display: flex;
+  gap: 10px;
+  margin: 20px 10px;
+  flex-wrap: wrap;
+}
+.model .month img {
+  margin: 0 10px;
+}
+
+.model .times {
+  display: flex;
+  gap: 15px;
+  margin: 20px 10px;
+  flex-wrap: wrap;
+}
+.model .times a {
+  border: 1px solid #8888;
+  padding: 6px;
+  border-radius: 10px;
+  color: #1172ba;
+  transition: 0.3s;
+}
+.model .times a:hover {
+  background-color: #1172ba;
+  color: white;
+}
+.model .times .time.hho{
+  background-color: #1172ba;
+  color: white;
+}
+.model .date .date {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 10px; */
+}
+.model .date .img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+.model .date p {
+  margin: 3px 0;
+  color: #6c7278;
+}
+.model .date p.pice {
+  color: black;
+  font-weight: 600;
+}
+.model .date .date div {
+  padding: 10px;
+  background: #d4eef9;
+  border-radius: 50%;
+}
+.model .date .img p {
+  margin: 0;
+}
+.model .date h6 {
+  font-size: 17px;
+}
+.model .date .datails1 div {
+  padding: 6px;
+  border: 1px solid #7777;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.model .date .datails1 div .icon {
+  font-size: 20px;
+}
+.model .date .datails1 div input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.model .date .datails2 div {
+  display: flex;
+  justify-content: space-between;
+}
+.model .date .coupon div {
+  padding: 6px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+}
+.model .date .coupon input {
+  width: 100%;
+  height: pa;
+  padding: 4px;
+  border: none;
+  outline: none;
+}
+.model .date .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.model .date .total h6 {
+  margin: 10px 0;
+}
+.model .date .total h5 {
+  margin: 10px 0;
+  color: #1172ba;
+  font-weight: 700;
+}
+.model .month {
+  width: 220px;
+  padding: 8px;
+  border: 1px solid #7777;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.model .month img {
+  width: 20px;
+  margin-right: 10px;
+}
+.model .month select {
+  border: none;
+  outline: none;
+  width: 100%;
+  /* text-align: start; */
+}
+.model .month option {
+  padding: 5px;
+  /* text-align: center; */
+}
+.model .databutton {
+  background: #1172ba;
+  /* margin-top: 55px !important; */
+  font-size: 15px;
+  border: 2px solid #1172ba;
+  border-radius: 10px;
+  padding: 10px 52px;
+  color: white;
+  transition: 0.3s;
+}
+.model .databutton2 {
+  background: #1171ba83;
+  /* margin-top: 55px !important; */
+  font-size: 15px;
+  border: 2px solid #1171ba83;
+  border-radius: 10px;
+  padding: 10px 52px;
+  color: white;
+  transition: 0.3s;
+}
+.finish {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+  width: 550px;
+}
+.finish .div1 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e6fbef;
+  border-radius: 50%;
+  /* padding: 10px; */
+}
+.finish .div1 .div2 {
+  width: 115px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00d261;
+  border-radius: 50%;
+}
+.finish .div1 .div2 .div-icon {
+  width: 30px;
+  height: 30px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #00d261;
+}
+.finish p {
+  max-width: 301px;
+  text-align: center;
+  color: #7777;
+}
+.finish a {
+  padding: 3px 30px;
+  border: 2px solid #00d261;
+  outline: none;
+  border-radius: 10px;
+  background: #00d261;
+  color: white;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.finish a:hover {
+  background-color: transparent;
+  color: #00d261;
+}
+.model .map .map-container {
+  position: relative;
+}
+.model .map input {
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #7777;
+}
+.model .map .search-button {
+  margin: 0 2px 0 3px;
+  padding: 5px;
+  border: 1px solid #1172ba;
+  background: #1172ba;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  transition: 0.4s;
+}
+.model .map .search-button:hover {
+  background-color: transparent;
+  color: #1172ba;
+}
+.model .map .locate-button {
+  position: absolute;
+  top: 62px;
+  right: 10px;
+  z-index: 1000;
+  padding: 10px;
+  background-color: #1172ba;
+  color: white;
+  border: 2px solid #1172ba;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+  /* width: 100px; */
+}
+
+.model .map .locate-button:hover {
+  background-color: white;
+  color: #1172ba;
+}
+.model .proceed-button {
+  background: #1171ba83;
+  margin-top: 55px !important;
+  font-size: 15px;
+  border: 2px solid #1171ba83;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: white;
+  transition: 0.3s;
+}
+.model .databutton:hover {
+  background-color: transparent;
+  color: #1172ba;
+}
+.model .proceed-button2 {
+  background: #1172ba;
+  margin-top: 55px !important;
+  font-size: 15px;
+  border: 2px solid #1172ba;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: white;
+  transition: 0.3s;
+  margin : 0 10px;
+}
+.model .proceed-button2:hover {
+  background-color: white;
+  color: #1172ba;
+}
+.model .map .pra {
+  margin: -16px 0 6px 0;
+  color: #11ba33;
+  font-size: 13px;
+}
+.model .apply {
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 9px;
+  padding: 10px 30px;
+  background: #1172ba;
+  color: white;
+  border: 2px solid #1172ba;
+  transition: 0.3s;
+}
+.model .apply:hover {
+  background-color: transparent;
+  color: #1172ba;
+}
+.errormodel {
+  background: #f5b1b1;
+  color: red;
+  width: 100%;
+  display: block;
+  padding: 0px 5px;
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  font-size: 20px;
+  color: black !important;
+}
+.baynow {
+  margin-top: 20px;
+  text-transform: none;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 23px;
+  border-radius: 10px;
+  border: 2px solid #1172ba;
+  background-color: #1172ba;
+  transition: 0.3s;
+}
+.baynow:hover {
+  background-color: transparent;
+  color: #1172ba;
+}
+.model .selec1 {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+.model .selec1 option {
+  padding: 5px;
+}
+.model .slick-arrow.slick-next{
+  position: absolute;
+  /* top: 493px; */
+  top: 112%;
+  right: 20px;
+  z-index: 200;
+}
+.model .slick-next::before{
+  content: '→' !important;
+  color: blue !important;
+  opacity: 1 !important;
+  font-size: 25px !important;
+}
+.model .slick-arrow.slick-prev{
+  position: absolute;
+  /* top: 493px; */
+  top: 112%;
+  left: 20px;
+  z-index: 200;
+}
+.model .slick-prev::before{
+  content: '←' !important;
+  color: blue !important;
+  opacity: 1 !important;
+  font-size: 25px !important;
+}
+.day.active{
+  text-align: center;
+  border: 1px solid #1172ba;
+  width: 70% !important;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  text-align: center !important;
+}
+.day.active:hover{
+  background-color: #1172ba;
+  color: white;
+}
+
+.model .days .day {
+  text-align: center;
+  border: 1px solid #7777;
+  width: 60px;
+  height: 90px;
+  padding: 10px;
+  transition: 0.3s;
+  border-radius: 10px;
+  background-color: white;
+  color: #1172ba;
+}
+.model .days .day:hover {
+  background-color: #1172ba;
+  color: white;
+}
+.day.active.hho {
+  background-color: #1172ba;
+  color: white;
+}
